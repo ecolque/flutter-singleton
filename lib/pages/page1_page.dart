@@ -6,6 +6,9 @@ class Page1Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('page 1'),
+      ),
       body: InfWidget(),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.accessibility_new),
