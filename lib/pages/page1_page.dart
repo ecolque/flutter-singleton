@@ -23,12 +23,18 @@ class InfWidget extends StatelessWidget {
       width: double.infinity,
       padding: EdgeInsets.all(20),
       child: Column(children: [
-        Text('general',
+        Text('Datos Personales',
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.bold,
             )),
+        ListTile(title: Text('Name: ')),
         Divider(),
+        Text('Profs',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+            )),
         ListTile(title: Text('Name: ')),
         ListTile(title: Text('Name1: ')),
         ListTile(title: Text('Name2: '))
